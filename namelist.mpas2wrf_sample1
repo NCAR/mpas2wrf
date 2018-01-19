@@ -1,0 +1,19 @@
+&share
+ output_prefix = 'rgrd_'
+ use_geogrid_file = 1
+/
+
+&geogrid
+ geogrid_filename = 'geo_em.d01'
+ e_we           =   301,
+ e_sn           =   301,
+ dx = 6000,
+ dy = 6000,
+ map_proj = 'lambert',
+ ref_lat   =  38.9821
+ ref_lon   = -76.4839
+ truelat1  =  30.0,
+ truelat2  =  50.0,
+ stand_lon = -80.0
+/
+

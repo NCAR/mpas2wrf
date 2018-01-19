@@ -1,0 +1,20 @@
+&share
+ output_prefix = 'mpas_'
+ use_geogrid_file = 0
+
+/
+
+&geogrid
+ geogrid_filename = 'geo_em.d01.nc'
+ e_we           =   668,
+ e_sn           =   630,
+ dx = 10000,
+ dy = 10000,
+ map_proj = 'polar',
+ ref_lat   =  -87.39999
+ ref_lon   =  180.0
+ truelat1  =  -71.0,
+ truelat2  =  -91.0,
+ stand_lon =  180.0
+/
+
